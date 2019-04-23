@@ -2,7 +2,7 @@
 process.title = 'node-chat';
 var webSocketsServerPort = 32767;
 var webSocketServer = require('websocket').server;
-const https = false;
+const https = true;
 
 var fs = require('fs');
 /* https */
@@ -123,6 +123,7 @@ control = {
             this.AI = true;
         }
         if(this.gameUser.length == 2 || this.AI){
+            this.initCheckerboard();
             this.gameStatus = 1;
             var data = [];
             for(var key in list){
@@ -132,20 +133,36 @@ control = {
                     status:this.gameUser.indexOf(us.uuid)>-1?2:3
                 })
             }
-            this.holder = Math.intRandom(0,this.gameUser.length);
-            var options = JSON.stringify({
-                type:"game",
-                method:"start",
-                data:data,
-                holder:this.gameUser[this.holder]
-            });
-            userModel.database[this.gameUser[this.holder]].pieceType = 1;
-            !this.AI && (userModel.database[this.gameUser[this.holder==1?0:1]].pieceType = 2);
-            for(var key in list){
-                var us = list[key];
-                us.connection.sendUTF(options);
+            if(this.AI){
+                list[this.gameUser[0]].pieceType = 1;
+                this.holder = 1;
+                var options = JSON.stringify({
+                    type:"game",
+                    method:"start",
+                    data:data
+                });
+                for(var key in list){
+                    var us = list[key];
+                    us.connection.sendUTF(options);
+                }
+                this.autoAI({
+                    data:{x:7,y:7}
+                });
+            }else{
+                this.holder = Math.intRandom(0,this.gameUser.length);
+                var options = JSON.stringify({
+                    type:"game",
+                    method:"start",
+                    data:data,
+                    holder:this.gameUser[this.holder]
+                });
+                userModel.database[this.gameUser[this.holder]].pieceType = 1;
+                !this.AI && (userModel.database[this.gameUser[this.holder==1?0:1]].pieceType = 2);
+                for(var key in list){
+                    var us = list[key];
+                    us.connection.sendUTF(options);
+                }
             }
-            this.initCheckerboard();
         }
     },
     /* other code */
@@ -254,7 +271,7 @@ control = {
         }
         var data = {
             x:x,y:y,
-            pieceType:this.holder==0?1:2,
+            pieceType:this.holder==0?2:1,
         };
         if(this.holder == 1){
             data.holder = this.gameUser[0]
@@ -279,7 +296,7 @@ control = {
             var us = list[key];
             us.connection.sendUTF(options);
         }
-        if(this.holder == 1){
+        if(this.holder == 1 && !this.over){
             var ai = this.computerAI();
             this.autoAI({
                 data:ai
