@@ -57,7 +57,7 @@ var gamePlatform = (function () {
                     options.fail();
                 }, this);
                 url = options.url || "192.168.8.78:32767";
-                this.webSocket.connect(url.substring(0, url.lastIndexOf(":")), url.substring(url.lastIndexOf(":") + 1, url.length));
+                this.webSocket.connectByUrl("wss://" + url);
                 return [2 /*return*/];
             });
         });
