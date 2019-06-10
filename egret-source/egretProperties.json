@@ -1,0 +1,37 @@
+{
+  "engineVersion": "5.2.17",
+  "compilerVersion": "5.2.17",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "greensock",
+      "path": "../gsap"
+    },
+    {
+      "name": "mouse",
+      "path": "../mouse"
+    },
+    {
+      "name": "photon",
+      "path": "../photon"
+    }
+  ]
+}

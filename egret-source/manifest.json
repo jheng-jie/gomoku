@@ -1,0 +1,27 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/greensock/greensock.js",
+		"libs/modules/mouse/mouse.js",
+		"libs/modules/photon/photon.js"
+	],
+	"game": [
+		"bin-debug/screen/gameScreen.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/RoomItem.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/Background.js",
+		"bin-debug/screen/loading.js",
+		"bin-debug/screen/lobby.js",
+		"bin-debug/screen/login.js",
+		"bin-debug/screen/room.js",
+		"bin-debug/screen/UI.js"
+	]
+}

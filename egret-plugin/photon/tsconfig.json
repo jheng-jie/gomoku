@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outFile": "bin/photon/photon.js",
+        "allowJs": true
+    },
+    "files": [
+        "src/photon.min.js"
+    ]
+}
