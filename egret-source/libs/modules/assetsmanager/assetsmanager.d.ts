@@ -642,7 +642,7 @@ declare module RES {
     /**
      * Sets the number of retry times when the resource failed to load, and the default value is 3.
      * @param retry To set the retry count.
-     * @includeExample extension/resource/Resource.ts
+     * @includeExample extension/dist/resource/Resource.ts
      * @version Egret 5.2
      * @platform Web,Native
      * @language en_US
@@ -650,7 +650,7 @@ declare module RES {
     /**
      * 设置资源加载失败时的重试次数，默认值是 3。
      * @param retry 要设置的重试次数。
-     * @includeExample extension/resource/Resource.ts
+     * @includeExample extension/dist/resource/Resource.ts
      * @version Egret 5.2
      * @platform Web,Native
      * @language zh_CN

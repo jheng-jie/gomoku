@@ -245,7 +245,7 @@ class lobby extends gameScreen{
 			height: 50,
 			x: 0,
 			y: this.stageH - 60,
-			skinName: "resource/eui_skins/ButtonDefault.exml"
+			skinName: "dist/resource/eui_skins/ButtonDefault.exml"
 		});
 		this.create = ui.Button({
 			label: "create",
@@ -254,7 +254,7 @@ class lobby extends gameScreen{
 			height: 50,
 			x: this.stageW - 120,
 			y: this.stageH - 60,
-			skinName: "resource/eui_skins/ButtonInfo.exml"
+			skinName: "dist/resource/eui_skins/ButtonInfo.exml"
 		});
 	}
 }

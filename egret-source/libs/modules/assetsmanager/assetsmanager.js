@@ -1120,9 +1120,9 @@ var RES;
      * @see #setMaxRetryTimes
      * @example The following code demonstrates how to load a resource via getResAsync
      * <pre>
-     *       RES.getResAsync("resource/example.json");//Only pass the key value to get the resource
+     *       RES.getResAsync("dist/resource/example.json");//Only pass the key value to get the resource
      *
-     *       RES.getResAsync("resource/example.json", (data) => {
+     *       RES.getResAsync("dist/resource/example.json", (data) => {
      *          console.log(data)
      *       }, this) //Pass in the key value, compFunc and thisObject get the resource, the latter two must appear at the same time
      * </pre>
@@ -1138,9 +1138,9 @@ var RES;
      * @see #setMaxRetryTimes
      * @example 以下代码演示了如何通过getResAsync加载资源
      * <pre>
-     *       RES.getResAsync("resource/example.json");//只传入key值获取资源
+     *       RES.getResAsync("dist/resource/example.json");//只传入key值获取资源
      *
-     *       RES.getResAsync("resource/example.json", (data) => {
+     *       RES.getResAsync("dist/resource/example.json", (data) => {
      *          console.log(data)
      *       }, this) //传入key值，compFunc和thisObject获取资源，后两个必须同时出现
      * </pre>
@@ -1231,7 +1231,7 @@ var RES;
     /**
      * Sets the number of retry times when the resource failed to load, and the default value is 3.
      * @param retry To set the retry count.
-     * @includeExample extension/resource/Resource.ts
+     * @includeExample extension/dist/resource/Resource.ts
      * @version Egret 5.2
      * @platform Web,Native
      * @language en_US
@@ -1239,7 +1239,7 @@ var RES;
     /**
      * 设置资源加载失败时的重试次数，默认值是 3。
      * @param retry 要设置的重试次数。
-     * @includeExample extension/resource/Resource.ts
+     * @includeExample extension/dist/resource/Resource.ts
      * @version Egret 5.2
      * @platform Web,Native
      * @language zh_CN

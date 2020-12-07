@@ -683,7 +683,7 @@ var room = (function (_super) {
             x: this.stageW - 115,
             y: this.stageH - 55,
             visible: false,
-            skinName: "resource/eui_skins/ButtonInfo.exml"
+            skinName: "dist/resource/eui_skins/ButtonInfo.exml"
         });
         /* button */
         this.back = ui.Button({
@@ -693,7 +693,7 @@ var room = (function (_super) {
             height: 50,
             x: 0,
             y: this.stageH - 60,
-            skinName: "resource/eui_skins/ButtonDefault.exml"
+            skinName: "dist/resource/eui_skins/ButtonDefault.exml"
         });
         this.ready = ui.Button({
             label: "ready",
@@ -702,7 +702,7 @@ var room = (function (_super) {
             height: 50,
             x: this.stageW - 120,
             y: this.stageH - 60,
-            skinName: "resource/eui_skins/ButtonDanger.exml"
+            skinName: "dist/resource/eui_skins/ButtonDanger.exml"
         });
     };
     return room;

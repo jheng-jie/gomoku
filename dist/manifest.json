@@ -1,0 +1,17 @@
+{
+	"initial": [
+		"dist/js/egret.min_d92caeca.js",
+		"dist/js/egret.web.min_e835c5d0.js",
+		"dist/js/game.min_8f561331.js",
+		"dist/js/eui.min_e8f47f49.js",
+		"dist/js/assetsmanager.min_77c2fdfe.js",
+		"dist/js/promise.min_83a6a5d.js",
+		"dist/js/greensock.min_a87fa2e0.js",
+		"dist/js/mouse.min_c171ee8c.js",
+		"dist/js/photon.min_e9e40b6.js"
+	],
+	"game": [
+		"dist/js/default.thm_4afa56fe.js",
+		"dist/js/main.min_f2eabfa4.js"
+	]
+}

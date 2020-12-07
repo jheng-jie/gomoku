@@ -44,7 +44,7 @@ class RoomItem extends eui.Group{
 			height: 40,
 			x: 20,
 			y: 60,
-			skinName: "resource/eui_skins/ButtonInfo.exml"
+			skinName: "dist/resource/eui_skins/ButtonInfo.exml"
 		});
 		(<eui.Label>this.join.labelDisplay).size = 20;
 		return this;

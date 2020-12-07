@@ -122,7 +122,7 @@ var Main = (function (_super) {
                         _a.trys.push([0, 4, , 5]);
                         loadingView = new LoadingUI();
                         this.stage.addChild(loadingView);
-                        return [4 /*yield*/, RES.loadConfig("resource/default.res.json", "resource/")];
+                        return [4 /*yield*/, RES.loadConfig("dist/resource/default.res.json", "dist/resource/")];
                     case 1:
                         _a.sent();
                         return [4 /*yield*/, this.loadTheme()];
@@ -147,7 +147,7 @@ var Main = (function (_super) {
         return new Promise(function (resolve, reject) {
             // load skin theme configuration file, you can manually modify the file. And replace the default skin.
             //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
-            var theme = new eui.Theme("resource/default.thm.json", _this.stage);
+            var theme = new eui.Theme("dist/resource/default.thm.json", _this.stage);
             theme.addEventListener(eui.UIEvent.COMPLETE, function () {
                 resolve();
             }, _this);

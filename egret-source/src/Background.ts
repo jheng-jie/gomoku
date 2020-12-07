@@ -1,7 +1,7 @@
 class Background {
 	public constructor() {
 		let node = document.createElement('style');
-		let url:string = "resource/assets/bg.png";
+		let url:string = "dist/resource/assets/bg.png";
 		node.innerHTML = `
 			body {
 				margin:0;

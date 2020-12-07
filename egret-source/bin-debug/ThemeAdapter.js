@@ -56,7 +56,7 @@ var ThemeAdapter = (function () {
             }, this);
         }
         else if (typeof generateEUI2 !== 'undefined') {
-            RES.getResByUrl("resource/gameEui.json", function (data, url) {
+            RES.getResByUrl("dist/resource/gameEui.json", function (data, url) {
                 window["JSONParseClass"]["setData"](data);
                 egret.callLater(function () {
                     onSuccess.call(thisObject, generateEUI2);

@@ -10,7 +10,7 @@ window.skins={};
                 window.generateEUI = {};
                 generateEUI.paths = {};
                 generateEUI.styles = undefined;
-                generateEUI.skins = {"eui.CheckBox":"resource/eui_skins/CheckBoxSkin.exml","eui.HScrollBar":"resource/eui_skins/HScrollBarSkin.exml","eui.HSlider":"resource/eui_skins/HSliderSkin.exml","eui.Panel":"resource/eui_skins/PanelSkin.exml","eui.TextInput":"resource/eui_skins/TextInputSkin.exml","eui.ProgressBar":"resource/eui_skins/ProgressBarSkin.exml","eui.RadioButton":"resource/eui_skins/RadioButtonSkin.exml","eui.Scroller":"resource/eui_skins/ScrollerSkin.exml","eui.ToggleSwitch":"resource/eui_skins/ToggleSwitchSkin.exml","eui.VScrollBar":"resource/eui_skins/VScrollBarSkin.exml","eui.VSlider":"resource/eui_skins/VSliderSkin.exml","eui.ItemRenderer":"resource/eui_skins/ItemRendererSkin.exml"};generateEUI.paths['resource/eui_skins/ButtonDanger.exml'] = window.skins.ButtonDanger = (function (_super) {
+                generateEUI.skins = {"eui.CheckBox":"dist/resource/eui_skins/CheckBoxSkin.exml","eui.HScrollBar":"dist/resource/eui_skins/HScrollBarSkin.exml","eui.HSlider":"dist/resource/eui_skins/HSliderSkin.exml","eui.Panel":"dist/resource/eui_skins/PanelSkin.exml","eui.TextInput":"dist/resource/eui_skins/TextInputSkin.exml","eui.ProgressBar":"dist/resource/eui_skins/ProgressBarSkin.exml","eui.RadioButton":"dist/resource/eui_skins/RadioButtonSkin.exml","eui.Scroller":"dist/resource/eui_skins/ScrollerSkin.exml","eui.ToggleSwitch":"dist/resource/eui_skins/ToggleSwitchSkin.exml","eui.VScrollBar":"dist/resource/eui_skins/VScrollBarSkin.exml","eui.VSlider":"dist/resource/eui_skins/VSliderSkin.exml","eui.ItemRenderer":"dist/resource/eui_skins/ItemRendererSkin.exml"};generateEUI.paths['dist/resource/eui_skins/ButtonDanger.exml'] = window.skins.ButtonDanger = (function (_super) {
 	__extends(ButtonDanger, _super);
 	function ButtonDanger() {
 		_super.call(this);
@@ -67,7 +67,7 @@ window.skins={};
 		return t;
 	};
 	return ButtonDanger;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ButtonDefault.exml'] = window.skins.ButtonDefault = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ButtonDefault.exml'] = window.skins.ButtonDefault = (function (_super) {
 	__extends(ButtonDefault, _super);
 	function ButtonDefault() {
 		_super.call(this);
@@ -124,7 +124,7 @@ window.skins={};
 		return t;
 	};
 	return ButtonDefault;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ButtonInfo.exml'] = window.skins.ButtonInfo = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ButtonInfo.exml'] = window.skins.ButtonInfo = (function (_super) {
 	__extends(ButtonInfo, _super);
 	function ButtonInfo() {
 		_super.call(this);
@@ -181,7 +181,7 @@ window.skins={};
 		return t;
 	};
 	return ButtonInfo;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ButtonPrimary.exml'] = window.skins.ButtonPrimary = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ButtonPrimary.exml'] = window.skins.ButtonPrimary = (function (_super) {
 	__extends(ButtonPrimary, _super);
 	function ButtonPrimary() {
 		_super.call(this);
@@ -238,7 +238,7 @@ window.skins={};
 		return t;
 	};
 	return ButtonPrimary;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/CheckBoxSkin.exml'] = window.skins.CheckBoxSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/CheckBoxSkin.exml'] = window.skins.CheckBoxSkin = (function (_super) {
 	__extends(CheckBoxSkin, _super);
 	function CheckBoxSkin() {
 		_super.call(this);
@@ -310,7 +310,7 @@ window.skins={};
 		return t;
 	};
 	return CheckBoxSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/HScrollBarSkin.exml'] = window.skins.HScrollBarSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/HScrollBarSkin.exml'] = window.skins.HScrollBarSkin = (function (_super) {
 	__extends(HScrollBarSkin, _super);
 	function HScrollBarSkin() {
 		_super.call(this);
@@ -333,7 +333,7 @@ window.skins={};
 		return t;
 	};
 	return HScrollBarSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/HSliderSkin.exml'] = window.skins.HSliderSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/HSliderSkin.exml'] = window.skins.HSliderSkin = (function (_super) {
 	__extends(HSliderSkin, _super);
 	function HSliderSkin() {
 		_super.call(this);
@@ -363,7 +363,7 @@ window.skins={};
 		return t;
 	};
 	return HSliderSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ItemRendererSkin.exml'] = window.skins.ItemRendererSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ItemRendererSkin.exml'] = window.skins.ItemRendererSkin = (function (_super) {
 	__extends(ItemRendererSkin, _super);
 	function ItemRendererSkin() {
 		_super.call(this);
@@ -416,7 +416,7 @@ window.skins={};
 		return t;
 	};
 	return ItemRendererSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/PanelSkin.exml'] = window.skins.PanelSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/PanelSkin.exml'] = window.skins.PanelSkin = (function (_super) {
 	__extends(PanelSkin, _super);
 	function PanelSkin() {
 		_super.call(this);
@@ -478,7 +478,7 @@ window.skins={};
 		return t;
 	};
 	return PanelSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ProgressBarSkin.exml'] = window.skins.ProgressBarSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ProgressBarSkin.exml'] = window.skins.ProgressBarSkin = (function (_super) {
 	__extends(ProgressBarSkin, _super);
 	function ProgressBarSkin() {
 		_super.call(this);
@@ -520,7 +520,7 @@ window.skins={};
 		return t;
 	};
 	return ProgressBarSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/RadioButtonSkin.exml'] = window.skins.RadioButtonSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/RadioButtonSkin.exml'] = window.skins.RadioButtonSkin = (function (_super) {
 	__extends(RadioButtonSkin, _super);
 	function RadioButtonSkin() {
 		_super.call(this);
@@ -592,7 +592,7 @@ window.skins={};
 		return t;
 	};
 	return RadioButtonSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ScrollerSkin.exml'] = window.skins.ScrollerSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ScrollerSkin.exml'] = window.skins.ScrollerSkin = (function (_super) {
 	__extends(ScrollerSkin, _super);
 	function ScrollerSkin() {
 		_super.call(this);
@@ -619,7 +619,7 @@ window.skins={};
 		return t;
 	};
 	return ScrollerSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/TextInputSkin.exml'] = window.skins.TextInputSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/TextInputSkin.exml'] = window.skins.TextInputSkin = (function (_super) {
 	__extends(TextInputSkin, _super);
 	function TextInputSkin() {
 		_super.call(this);
@@ -694,7 +694,7 @@ window.skins={};
 		return t;
 	};
 	return TextInputSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ToggleSwitchSkin.exml'] = window.skins.ToggleSwitchSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/ToggleSwitchSkin.exml'] = window.skins.ToggleSwitchSkin = (function (_super) {
 	__extends(ToggleSwitchSkin, _super);
 	function ToggleSwitchSkin() {
 		_super.call(this);
@@ -750,7 +750,7 @@ window.skins={};
 		return t;
 	};
 	return ToggleSwitchSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/VScrollBarSkin.exml'] = window.skins.VScrollBarSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/VScrollBarSkin.exml'] = window.skins.VScrollBarSkin = (function (_super) {
 	__extends(VScrollBarSkin, _super);
 	function VScrollBarSkin() {
 		_super.call(this);
@@ -773,7 +773,7 @@ window.skins={};
 		return t;
 	};
 	return VScrollBarSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/VSliderSkin.exml'] = window.skins.VSliderSkin = (function (_super) {
+})(eui.Skin);generateEUI.paths['dist/resource/eui_skins/VSliderSkin.exml'] = window.skins.VSliderSkin = (function (_super) {
 	__extends(VSliderSkin, _super);
 	function VSliderSkin() {
 		_super.call(this);

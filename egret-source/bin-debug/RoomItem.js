@@ -48,7 +48,7 @@ var RoomItem = (function (_super) {
             height: 40,
             x: 20,
             y: 60,
-            skinName: "resource/eui_skins/ButtonInfo.exml"
+            skinName: "dist/resource/eui_skins/ButtonInfo.exml"
         });
         _this.join.labelDisplay.size = 20;
         return _this;

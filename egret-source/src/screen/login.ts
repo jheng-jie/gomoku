@@ -188,7 +188,7 @@ class login extends gameScreen{
 			height: 50,
 			x: this.stageW*.5 - 60,
 			y: this.stageH*.87 - 25,
-			skinName: "resource/eui_skins/ButtonInfo.exml"
+			skinName: "dist/resource/eui_skins/ButtonInfo.exml"
 		});
 	}
 

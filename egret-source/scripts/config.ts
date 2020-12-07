@@ -20,7 +20,7 @@ const config: ResourceManagerConfig = {
                 outputDir,
                 commands: [
                     // new EmitResConfigFilePlugin({
-                    //     output: "resource/default.res.json",
+                    //     output: "dist/resource/default.res.json",
                     //     typeSelector: config.typeSelector,
                     //     nameSelector: p => path.basename(p).replace(/\./gi, "_"),
                     //     groupSelector: p => "preload"
