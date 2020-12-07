@@ -6,8 +6,8 @@
 > [Photon](https://www.photonengine.com/)
 
 
-##### 静态服务
-> [anywhere](https://www.npmjs.com/package/anywhere)
+##### Test 静态服务
+> [Anywhere 随启随用](https://www.npmjs.com/package/anywhere)
 
 
 ```
